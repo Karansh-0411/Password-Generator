@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    min-width:100vw;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:linear-gradient(to right, red, yellow);
+}
+
+h1 {
+    font-size:3.5rem;
+}
+
+.display {
+    margin:100px 0;
+    /* background-color:red; */
+    min-width:40%;
+    min-height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2.2rem;
+    font-weight:bold;
+    border:2px solid black;
+}
+
+.btn {
+    min-width:20vw;
+    min-height:5vh;
+    font-weight:bold;
+    font-size:1.2rem;
+    border-radius:5px;
+}
+
+.btn:hover {
+    cursor:pointer;
+}
